@@ -1,0 +1,43 @@
+{
+  "name": "react-app-module",
+  "version": "0.1.0",
+  "private": true,
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dsanc89/react-scripts-build-issue.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject",
+    "commit": "commit-wizard",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "qs": "^6.5.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.4.0",
+    "react-loadable": "^5.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.77.0",
+    "react-test-renderer": "^16.4.2"
+  }
+}

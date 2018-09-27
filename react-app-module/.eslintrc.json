@@ -1,0 +1,76 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "comma-dangle": ["error", "never"],
+    "eol-last": ["error", "always"],
+    "init-declarations": ["error", "always"],
+    "no-console": "off",
+    "no-else-return": ["error", {"allowElseIf": false}],
+    "no-extra-semi": "error",
+    "no-unused-vars": "error",
+    "no-unused-expressions": "error",
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "always",
+      "asyncArrow": "always"
+    }],
+    "spaced-comment": ["error", "always"],
+    "strict": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js", "*.spec.js"],
+      "rules": {
+        "init-declarations": "off"
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "16.5"
+    }
+  },
+  "globals": {
+    "SyntheticEvent": true,
+    "SyntheticAnimationEvent": true,
+    "SyntheticClipboardEvent": true,
+    "SyntheticCompositionEvent": true,
+    "SyntheticInputEvent": true,
+    "SyntheticUIEvent": true,
+    "SyntheticFocusEvent": true,
+    "SyntheticKeyboardEvent": true,
+    "SyntheticMouseEvent": true,
+    "SyntheticDragEvent": true,
+    "SyntheticWheelEvent": true,
+    "SyntheticTouchEvent": true,
+    "SyntheticTransitionEvent": true,
+    "global": true,
+    "spyOn": true,
+    "Promise": true,
+    "$Shape": true,
+    "IntervalID": true
+  }
+}

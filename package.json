@@ -1,0 +1,24 @@
+{
+  "name": "react-scripts-build-problem",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
+    "eslint-plugin-flowtype": "^2.50.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dsanc89/react-scripts-build-issue.git"
+  },
+  "main": "react-app-module/src/index.js",
+  "scripts": {
+    "build": "cd react-app-module && npm run build"
+  },
+  "author": "Daniel Sanchez",
+  "license": "ISC"
+}
